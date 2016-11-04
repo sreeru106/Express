@@ -26,7 +26,7 @@ var insertDocument = function(db,callback) {
    }, function(err, result) {
     assert.equal(err, null);
     console.log("Inserted a document into the employee collection.");
-	res.render('index',{title:'Express Example'});
+	res.render('success',{title:'Employee registration'});
     callback();
   });
 };
