@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	color : purple;
+	font-size : 20px;
+}
+
+.studentry{
+	padding: 6px;
+    border-spacing: 25px;
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+table, th, td {
+	border: 2px solid grey;
+	border-collapse: collapse;
+	padding: 8px;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+table#studDetails th:last-child {
+	width : 160px;
+}
+
+.buttons input, button{
+	border-radius : 12px;
+	padding : 5px;
+	border-style: ridge;
+    color: darkgreen;
+    background-color: cornsilk;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 18px;
+    border-color: bisque;
+/*     box-shadow: 0 3px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.10) */
+}
+
+.input1{
+	margin-left: 9px;
+    margin-bottom: 5px;
+}
+
+.input2{
+	margin-left: 18px;
+    margin-bottom: 5px;	
+}
+
+.input3{
+	margin-left: 34px;
+    margin-bottom: 8px;
+}
+div .ui-widget-content{
+	width: 600px;
+	background: wheat;
+}
+div .ui-widget .ui-state-default{
+	background: brown;
+}

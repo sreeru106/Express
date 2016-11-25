@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "sample node js project",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "sreerenjini",
+  "license": "ISC"
+}
