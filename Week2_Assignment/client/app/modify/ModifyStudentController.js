@@ -1,4 +1,4 @@
-mainApp.controller('ModifyStudentController',[ '$scope','ModifyStudentService','ViewStudentService', function($scope, service, viewService){
+mainApp.controller('ModifyStudentController',[ '$scope', '$location', 'ModifyStudentService','ViewStudentService', function($scope, $location, service, viewService){
 	var ctrl = this;
 	ctrl.student = {name:'',age:null,id:null};
 	
@@ -21,5 +21,6 @@ mainApp.controller('ModifyStudentController',[ '$scope','ModifyStudentService','
             });
         	ctrl.student={name:'',age:null,id:null};
             $scope.studentForm.$setPristine();
+            $location.path('viewStudent');
         }
 }]);
