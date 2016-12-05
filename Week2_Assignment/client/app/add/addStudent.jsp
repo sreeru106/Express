@@ -17,9 +17,9 @@
                   <span ng-show="studentForm.id.$touched && studentForm.id.$invalid">The Student Id is required.</span>
              </div>
 			<div class = "buttons">
-                     <input type=button value="Add New" ng-click="ctrl.submitDetails()" 
+                     <input type=button value="Save" ng-click="ctrl.submitDetails()" 
                      ng-disabled="studentForm.$pristine || (studentForm.name.$invalid || studentForm.id.$invalid) ">
-                     <input type="reset" ng-click="ctrl.resetDetails()" value = "Reset Details">
+                     <input type="reset" ng-click="ctrl.resetDetails()" value = "Reset">
 			</div>
             </div>
          </form>
