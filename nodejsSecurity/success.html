@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <form action="/submit" method="post">
+      <div>
+        <label>something</label>
+        <input type="text" name="username" />
+        <br/>
+      </div>
+      <div>
+        <label>something:</label>
+        <input type="text" name="password" />
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+	<input type="hidden" name="_csrf" value=<%= csrfToken %> />
+  </body>
+</html>
