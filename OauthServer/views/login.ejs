@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Oauth Server</title>
+  </head>
+  <body>
+
+    <form action="/api/oauth2/authorized" method="post">
+	  <div>
+		 <label>Username:</label>
+		<input type="text"  name="username">
+	 </div>
+	 <div>
+		<label>Password:</label>
+		<input type="password"  name="password">
+      </div>
+		  <input name="client_id" type="hidden" value="<%= clientId %>" id="client_id">
+		  <input name="response_type" type="hidden" value="<%= responseType %>" id="response_type">
+		  <input name="redirect_uri" type="hidden" value="<%= redirectUri %>" id="redirect_uri">
+		  <input name="state" type="hidden" value="<%= state %>" id="state">
+      <div>
+		  <input type="submit" value="Login" id="login">
+      </div>
+    </form>
+
+  </body>
+</html>
