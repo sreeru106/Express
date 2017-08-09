@@ -10,6 +10,11 @@
   "scripts": {
     "test": "node main.js"
   },
+  
+"scripts": {
+    "start": "forever start app.js",
+    "stop": "forever stopall"
+},
   "author": "sreerenjini",
   "license": "ISC"
 }
