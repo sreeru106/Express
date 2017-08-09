@@ -12,7 +12,7 @@
   },
   
 "scripts": {
-    "start": "forever start app.js",
+    "start": "forever start main.js",
     "stop": "forever stopall"
 },
   "author": "sreerenjini",
