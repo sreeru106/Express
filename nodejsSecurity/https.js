@@ -10,6 +10,7 @@ var https= require('https');
 var fs =require('fs');
 var http= require('http');
 // view  setup
+//edit
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(bodyParser.json());
